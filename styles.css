@@ -83,13 +83,17 @@ ul {
 }
 
 .header img {
-    max-width: 400px;
+    width: 320px;
+    height: 280px;
+    margin: 0px 50px;
 }
 
 .header .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border: 2px solid green;
+    height: 400px;
 }
 
 .boxes .container {
@@ -108,7 +112,7 @@ ul {
 }
 
 .box i {
-    margin-right: 10 px;
+    margin-right: 10px;
 }
 
 @media(max-width: 768px) {
@@ -116,6 +120,8 @@ ul {
         flex-direction: column;
         padding-top: 20px;
         text-align: center;
+        height: 500px;
+        padding-bottom: 40px;
     }
 
     .boxes .container {
