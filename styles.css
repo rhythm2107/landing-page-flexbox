@@ -81,3 +81,15 @@ ul {
     font-weight: bold;
     line-height: 1.2;
 }
+
+.header img {
+    max-width: 70%;
+    max-height: 70%;
+    padding: 100px;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
