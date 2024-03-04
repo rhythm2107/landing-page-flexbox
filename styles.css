@@ -83,7 +83,7 @@ ul {
 }
 
 .header img {
-    width: 320px;
+    width: 280px;
     height: 280px;
     margin: 0px 50px;
 }
@@ -127,5 +127,12 @@ ul {
     .boxes .container {
         display: block;
         text-align: center;
+    }
+}
+
+@media(max-width: 614px) {
+    .header img {
+        width: 200px;
+        height: 200px;
     }
 }
